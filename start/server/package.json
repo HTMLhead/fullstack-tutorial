@@ -1,21 +1,21 @@
 {
   "name": "fullstack-tutorial-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "fullstach-tutorial-server",
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
     "start": "nodemon src/index.js",
     "start:ci": "node src/index.js"
   },
-  "author": "",
+  "author": "head",
   "license": "ISC",
   "dependencies": {
     "apollo-datasource": "^0.1.3",
     "apollo-datasource-rest": "^0.1.5",
-    "apollo-server": "2.2.0-alpha.2",
-    "apollo-server-testing": "2.2.0-alpha.2",
-    "graphql": "^14.0.2",
+    "apollo-server": "2.5.0",
+    "apollo-server-testing": "2.5.0",
+    "graphql": "^0.13.2",
     "isemail": "^3.1.3",
     "nodemon": "^1.18.4",
     "sequelize": "^4.39.0",
