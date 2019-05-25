@@ -28,6 +28,7 @@ const server = new ApolloServer({
     userAPI: new UserAPI({ store })
   })
 });
+console.log('now exist');
 
 server.listen().then(({ url }) => {
   console.log(`🚀 Server ready at ${url}`);
