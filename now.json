@@ -1,1 +1,5 @@
-{}
+{
+  "builds": [
+    { "src": "start/server/src/index.js", "use": "@now/node" }
+  ]
+}
